@@ -12,6 +12,31 @@
     <title>Bootstrap Introduction!</title>
   </head>
   <body>
+    <!-- NAV BAR -->
+    <div  class= "container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
       <!-- TOPOGRAPHY -->
       <div class= "container">
             <h1 class="page-header">Hello, world! <small>Secondary text</small></h1>
@@ -248,15 +273,15 @@ John Doe
   <div class="carousel-inner">
     
     <div class="carousel-item active">
-        <img src="https://media2.picsearch.com/is?bMrABcFQL827hInh3S5bUxEZqzzEPiw0l2zPIO6Lrt0&height=226" class="d-block w-100" alt="https://exclusive.safari.com/luxury-victoria-falls-botswana-safari/18c53b28-sandibe-gameddrive.jpg">
+        <img  height="350" width="550" src="https://media2.picsearch.com/is?bMrABcFQL827hInh3S5bUxEZqzzEPiw0l2zPIO6Lrt0&height=226" class="d-block w-100" alt="https://exclusive.safari.com/luxury-victoria-falls-botswana-safari/18c53b28-sandibe-gameddrive.jpg" width="340" >
     </div>
 
     <div class="carousel-item">
-      <img src="https://media2.picsearch.com/is?WsKC9g2X5xFoBiG30d0dXY3WuZ9MTbADDaBlnuSHfUE&height=260" class="d-block w-100" alt="https://media5.picsearch.com/is?QhsB1DrTuvDzG0f6n2V6YYNaTERaBdw1EcTkUP3pgzA&height=240">
+      <img    height="350" width="550" src="https://media2.picsearch.com/is?WsKC9g2X5xFoBiG30d0dXY3WuZ9MTbADDaBlnuSHfUE&height=260" class="d-block w-100" alt="https://media5.picsearch.com/is?QhsB1DrTuvDzG0f6n2V6YYNaTERaBdw1EcTkUP3pgzA&height=240" width="340">
     </div>
 
     <div class="carousel-item">
-      <img src="https://media2.picsearch.com/is?Ixf_670D2l6yMw-xmGE-0HlGsH-OjgyXKRUUW0k4iCI&height=258" class="d-block w-100" alt="https://exclusive.safari.com/victoria-falls-okavango-delta-escape/609c6610-hippo.jpg">
+      <img   height="350" width="550" src="https://media2.picsearch.com/is?Ixf_670D2l6yMw-xmGE-0HlGsH-OjgyXKRUUW0k4iCI&height=258" class="d-block w-100" alt="https://exclusive.safari.com/victoria-falls-okavango-delta-escape/609c6610-hippo.jpg" width="340">
     </div>
 
   </div>
@@ -278,6 +303,33 @@ You can close this alert
 <div class="progress"> 
   <div  class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;"> 50%
 </div>
+</div>
+<hr>
+<!-- BADGES -->
+
+<a href="#"> Inbox<span class="badge"> 50</span></a>
+<button class="btn btn-primary">Messages<span  class="badge">2</span></button>
+<hr>
+<!-- IMAGES  not rounded/circle find out why-->
+<div class="container">
+  <img class="thumbnail" height="300" width="300" src="https://lid.zoocdn.com/645/430/d2368a873d9db2ca7574ad2d6cbeaac2adf94f4a.jpg">
+  <img class="img-rounded" height="300" width="300"  src="https://lid.zoocdn.com/645/430/d2368a873d9db2ca7574ad2d6cbeaac2adf94f4a.jpg">
+  <img class="img-circle" height="300" width="300"  src="https://lid.zoocdn.com/645/430/d2368a873d9db2ca7574ad2d6cbeaac2adf94f4a.jpg">
+</div>
+<hr>
+<!-- GRIDS -->
+<div class="container">
+  <div class="row">
+      <div class="col-md-8">
+<p> Lorem Ipsum is simply dummy text of the printing 
+  and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+  like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing 
+  and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+<div class="col-md-4"><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
+    PageMaker including versions of Lorem Ipsum.</p>      </div>
+  </div>
 </div>
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
