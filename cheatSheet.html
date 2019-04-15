@@ -1,0 +1,340 @@
+<!-- https://www.youtube.com/watch?v=5GcQtLDGXy8&t=1459s -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Bootstrap Introduction!</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <div  class= "container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      <!-- TOPOGRAPHY -->
+      <div class= "container">
+            <h1 class="page-header">Hello, world! <small>Secondary text</small></h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nemo culpa </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nemo culpa 
+            architecto<mark>recusandae rem perspiciatis suscipit optio ipsam</mark> minus, ! Non iste
+         aut veritatis ab <del>exercitationem vitae odit eum quidem repellat.</del>
+         orem ipsum dolor sit amet consectetur adipisicing elit. Quam nemo culpa 
+         architecto minus, <u>recusandae rem perspiciatis suscipit optio ipsam! </u>Non iste
+      aut veritatis ab exercitationem vitae odit eum quidem repellat.</p>
+ 
+      <p  class= "text-left text-lowercase">Aligned text </p>
+      <p  class= "text-center text-uppercase">Center Aligned text </p>
+      <p  class= "text-right  text-capitalize">Right Aligned text </p>
+      <p class= "text-justify">Justified text </p>
+      <p class= "text-nowrap">No wrap text </p>
+      <hr>
+
+       <!-- QUICK FLOATS -->
+      <div class="pull-right">Div floated to right</div> <!-- did not float -->
+      <div class="pull-left">Div floated to left</div> <!-- did not float -->
+      
+      <!--CLEAR FLOATS -->
+      <div class="clearfix"></div> 
+      <!-- BLOCKQUOTES -->
+      <blockquote class="blockquote">
+          <!-- <blockquote class="blockquote-reverse"> -->
+        <p>
+        aut veritatis ab exercitationem vitae odit eum quide
+      </p>
+    </blockquote>
+    <footer>
+      Quote by
+      <cite title="John Doe">
+John Doe
+      </cite>
+    </footer>
+    <hr>
+    <!-- LISTS -->
+    <ul>
+      <li> List item one</li>
+      <li> List item one</li>
+      <li> List item one</li>
+      <li> List item one</li>
+      <li> List item one</li>
+    </ul>
+    <ul class="list-unstyled">
+        <li> List item one</li>
+        <li> List item one</li>
+        <li> List item one</li>
+        <li> List item one</li>
+        <li> List item one</li>
+      </ul>
+
+      <ul class="list-inline">  <!-- did not work -->
+          <li> List item one</li>
+          <li> List item one</li>
+          <li> List item one</li>
+          <li> List item one</li>
+          <li> List item one</li>
+        </ul>
+
+        <!-- CODE --> can use markdown as an alternative
+        <!-- Read more on Code -->
+        <code>&lt;h1&gt; heading text &lt;/h1&gt;</code>
+        <br>
+        change derectory with <kbd>cd</kbd>
+        <br>
+<!-- WHAT KEYS TO PRESS -->
+        Edit settings, press 
+        <kbd><kbd>ctrl</kbd>+ <kbd>,</kbd> </kbd>
+        <hr>
+<!-- CONTEXTUAL COLOURS -->
+        <p class="text-primary">Hello world</p>
+        <p class="text-success">Hello world</p>
+        <p class="text-info">Hello world</p>
+        <p class="text-warning">Hello world</p>
+        <p class="text-danger">Hello world</p>
+        <p class="text-muted">Hello world</p>
+<hr>
+        <!-- CONTEXTUAL BACKGROUND COLOURS -->
+        <p class="bg-primary">Hello world</p>
+        <p class="bg-success">Hello world</p>
+        <p class="bg-info">Hello world</p>
+        <p class="bg-warning">Hello world</p>
+        <p class="bg-danger">Hello world</p>
+        <p class="bg-muted">Hello world</p>
+    </div>
+    <hr>
+<!-- BUTTONS -->
+  <div class= "container">
+    <button class= "btn btn-default" > Button</button>
+    <a href="#" class= "btn btn-default" role= "button" >Link </a>
+    <input type="text"  class= "btn btn-default" value="Submit">
+        <br>
+    <!--CONTEXTUAL BUTTONS -->
+    <button class= "btn btn-default">Default</button> 
+    <button class= "btn btn-primary">Primary</button>
+    <button class= "btn btn-success">Success</button>
+    <button class= "btn btn-info">Info</button>
+    <button class= "btn btn-warning">Warning</button>
+    <button class= "btn btn-danger">Delete</button>
+    <button class= "btn btn-link">Link</button>   
+    <br>
+    <!-- BUTTONS SIZES-->
+    <button class= "btn btn-default btn-lg">Default</button> 
+    <button class= "btn btn-default btn-default">Default</button> 
+    <button class= "btn btn-default btn-sm">Small</button> 
+    <button class= "btn btn-default btn-xs">XSmall</button>
+
+     <!--YOU CAN DISABLE A BUTTON  -->
+     <button class= "btn btn-default btn-xs" disabled="disabled">XSmall</button>
+</div>
+<hr>
+ <!-- FORMS--> 
+<div class= "container">
+    <form >
+ <!-- <form class= "form-inline" > Puts the forms in one line -->
+  <div class= "form-group">
+    <label>Name</label>
+    <input type="text" class="form-control" placeholder="Add Name" >
+  </div>
+
+  <div class= "form-group">
+      <label>Email</label>
+      <input type="email" class="form-control" placeholder="Add Email" >
+    </div>
+
+    <div class= "form-group">
+        <label>Message</label>
+        <textarea class="form-control" placeholder="Add Message" ></textarea>
+      </div>
+
+    <div class= "form-group">
+        <label>Gender</label>
+        <select  class="form-control">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class= "form-group">
+          <label>Upload File</label>
+         <input type="file">
+         <p class= "help-block">Only png or jpeg allowed </p>
+        </div> 
+
+        <div class= "checkbox">
+          <ul class="list-unstyled">
+            <li>
+            <label>
+           <input type="checkbox">check me out
+          </label>
+        </li>
+        <li>
+          <label>
+              <input type="checkbox">check me out
+             </label>
+            </li>
+            </ul>
+        </div> 
+ </form> <button type="submit" class= "btn btn-default">Login</button>
+ <hr>
+</div>
+  <!-- TABLES--> 
+      <div class="container">
+<table class="table table-stripped table-bordered table-hover table-condensed">
+  <tr>
+    <th>Firstname </th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr >
+    <td>Lorenzo </td>
+    <td>Torino</td>
+    <td>37</td>
+  </tr>
+  <tr>
+    <td>Justine</td>
+    <td>Merved</td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td >Onneile</td>
+    <td>Maribs</td>
+    <td>45</td>
+  </tr>
+  <tr>
+    <td>koahme</td>
+    <td>Neil</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>Vicktor</td>
+    <td>Potreshenko</td>
+    <td>48</td>
+  </tr>
+  <tr>
+    <td>Khaled</td>
+    <td>Alswamey</td>
+    <td>37</td>
+  </tr>
+  <td>Nawal </td>
+    <td>Davids</td>
+    <td>41</td>
+  </tr>
+  </table>
+      </div>
+</div>
+<hr>
+<!-- LIST GROUPS -->
+<div class= "container" >
+  <ul class= "list-group">
+    <li class= "list-group-item-danger">List item one </li>
+    <li  class= "list-group-item-info">List item two </li>
+    <li  class= "list-group-item-warning">List item three </li>
+    <li  class= "list-group-item-success">List item four </li>
+    <li class= "list-group-item-primary">List item five </li>
+  </ul>
+  </div>
+
+<br>
+<div class= "container" >
+   <a href="#" class= "list-group-item active">List item one </a>
+  <a href="#" class= "list-group-item list-group-item-success-info">List item two </a>
+  <a href="#" class= "list-group-item list-group-item-success">List item three </a>
+  <a href="#" class= "list-group-item list-group-item-warning">List item four </a>
+  <a href="#" class= "list-group-item list-group-item-success-primary">List item five </a>
+      </div>
+      <hr>
+<!-- CAROUSEL -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active">
+        <img  height="350" width="550" src="https://media2.picsearch.com/is?bMrABcFQL827hInh3S5bUxEZqzzEPiw0l2zPIO6Lrt0&height=226" class="d-block w-100" alt="https://exclusive.safari.com/luxury-victoria-falls-botswana-safari/18c53b28-sandibe-gameddrive.jpg" width="340" >
+    </div>
+
+    <div class="carousel-item">
+      <img    height="350" width="550" src="https://media2.picsearch.com/is?WsKC9g2X5xFoBiG30d0dXY3WuZ9MTbADDaBlnuSHfUE&height=260" class="d-block w-100" alt="https://media5.picsearch.com/is?QhsB1DrTuvDzG0f6n2V6YYNaTERaBdw1EcTkUP3pgzA&height=240" width="340">
+    </div>
+
+    <div class="carousel-item">
+      <img   height="350" width="550" src="https://media2.picsearch.com/is?Ixf_670D2l6yMw-xmGE-0HlGsH-OjgyXKRUUW0k4iCI&height=258" class="d-block w-100" alt="https://exclusive.safari.com/victoria-falls-okavango-delta-escape/609c6610-hippo.jpg" width="340">
+    </div>
+
+  </div>
+</div>
+<hr>
+<!--ALERTS -->
+<div class= "alert alert-success" role="alert" >A success Alert</div>
+<div class= "alert alert-info" role="alert" >An info Alert</div>
+<div class= "alert alert-warning" role="alert" >A warning Alert</div>
+<div class= "alert alert-danger" role="alert" >A danger Alert</div> 
+
+<!--DISMISS AN ALERT  -->
+<div class= "alert alert-warning alert-dismissible" role="alert">
+<button type="button" class="close" data-dismiss="alert">&times;<span></span></button>
+You can close this alert 
+</div>
+<hr>
+<!-- PROGRESS BARS -->
+<div class="progress"> 
+  <div  class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;"> 50%
+</div>
+</div>
+<hr>
+<!-- BADGES -->
+
+<a href="#"> Inbox<span class="badge"> 50</span></a>
+<button class="btn btn-primary">Messages<span  class="badge">2</span></button>
+<hr>
+<!-- IMAGES  not rounded/circle find out why-->
+<div class="container">
+  <img class="thumbnail" height="300" width="300" src="https://lid.zoocdn.com/645/430/d2368a873d9db2ca7574ad2d6cbeaac2adf94f4a.jpg">
+  <img class="img-rounded" height="300" width="300"  src="https://lid.zoocdn.com/645/430/d2368a873d9db2ca7574ad2d6cbeaac2adf94f4a.jpg">
+  <img class="img-circle" height="300" width="300"  src="https://lid.zoocdn.com/645/430/d2368a873d9db2ca7574ad2d6cbeaac2adf94f4a.jpg">
+</div>
+<hr>
+<!-- GRIDS -->
+<div class="container">
+  <div class="row">
+      <div class="col-md-8">
+<p> Lorem Ipsum is simply dummy text of the printing 
+  and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+  like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing 
+  and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+<div class="col-md-4"><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
+    PageMaker including versions of Lorem Ipsum.</p>      </div>
+  </div>
+</div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+  </html>
